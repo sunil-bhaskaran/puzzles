@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class Printstar {
 	
+	//Added a new method.
+	
 	public void printStarData(int number)
 	{
 		for (int i=1; i <= number; i++)
