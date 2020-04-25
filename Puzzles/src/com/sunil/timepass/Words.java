@@ -30,11 +30,4 @@ public class Words {
 		
 	}
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-		Words obj = new Words();
-		System.out.println(obj.FindWord("Hello Hello how are you you you are?"));
-	}
-
 }
