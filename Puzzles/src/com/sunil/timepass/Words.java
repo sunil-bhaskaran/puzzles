@@ -6,9 +6,11 @@ import java.util.TreeMap;
 public class Words {
 	
 	public Map FindWord(String words)
-	{
-		String WordArray[]=words.split(" ");
+	{  
+		String FinalWords = words.replaceAll("[.?]", "");
+		String WordArray[]=FinalWords.split(" ");
 		TreeMap<String, Integer> map = new TreeMap<String, Integer>();
+		
 		
 		for (int i =0; i < WordArray.length; i++)
 		{
@@ -27,13 +29,6 @@ public class Words {
 		
 		return map;
 		
-	}
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
-		Words obj = new Words();
-		System.out.println(obj.FindWord("Hello Hello how are you you you are"));
 	}
 
 }
