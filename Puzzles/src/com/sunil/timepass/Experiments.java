@@ -9,6 +9,7 @@ public class Experiments {
 		
 		Palyndrome obj=new Palyndrome();
 		System.out.println(obj.checkPalyndrome("Malayalam"));
+		System.out.println(obj.checkPalyndrome("AbA"));
 
 	}
 
